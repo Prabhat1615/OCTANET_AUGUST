@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Starbucks Landing page</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In et ea odio corrupti veritatis laboriosam aliquid adipisci amet! Rem quod quasi voluptate dicta natus quos earum temporibus neque dolores amet.</p>
+                <a href="#">Learn More</a>
+                </div>
+                    <div class="imgbox">
+                    <img src="https://freepngimg.com/thumb/starbucks/77325-frappuccino-drink-chocolate-starbucks-matcha-white.png" class="starbucks">
+                    </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="https://freepngimg.com/thumb/starbucks/77325-frappuccino-drink-chocolate-starbucks-matcha-white.png" onclick="imgSlider('')" width=80px height="120px" object-fit="cover"></li>
+             <li><img src="https://freepngimg.com/thumb/coffee/62115-tea-coffee-drink-starbucks-latte-free-download-image.png" onclick="imgSlider('')" width=80px height="120px" object-fit="cover"></li>
+                  <li><img src="https://freepngimg.com/thumb/coffee/62202-coffee-frappuccino-food-drink-starbucks-unicorn.png" onclick="imgSlider('')" width=80px height="120px" object-fit="cover"></li>
+            </ul>
+            <ul class="sci">
+               <li><a href="#"><img src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-best-facebook-logo-icons-gif-transparent-png-images-9.png" width="40" alt="Circle F Logo, Facebook Icon Social Media" /></a></li>
+               <li><a href="#"><img src="https://www.freepnglogos.com/uploads/twitter-logo-png/black-and-white-twitter-logo-png-hq-download-25.png" width="40" alt="black and white twitter logo png hq download" /></a></li>
+               <li><a href="#"><img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-icon-download-icons-12.png" width="40" alt="logo ig, instagram icon download icons" /></a></li>
+               
+               </ul>
+   
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){ 
+            document.querySelector('.starbucks').src * anything
+        }
+    </script>
+</body>
+</html>
